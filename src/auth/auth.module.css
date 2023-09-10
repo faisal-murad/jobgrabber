@@ -31,7 +31,7 @@ select,
 button {
   display: block; 
   width: 100%;
-  border-color: transparent;
+  /* border-color: transparent; */
   background-color: rgb(73, 90, 245);
   caret-color: white;
   color: white;
