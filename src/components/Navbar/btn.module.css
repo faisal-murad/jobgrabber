@@ -1,0 +1,26 @@
+
+.navbutton{
+    
+    font-family: 'Rubik', sans-serif;
+    background-color: transparent;
+    display: block;
+    position: relative;
+    right: 10%;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid;
+     /* rgb(107, 169, 208); */
+    /* color: rgb(107, 169, 208); */
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px 5px;
+    text-decoration: none;
+}
+
+.navbutton:hover {
+    cursor: pointer;
+    backdrop-filter: brightness(95%);
+}

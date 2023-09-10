@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Raleway:wght@300&family=Tilt+Prism&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+
+
+}
+
+
+
+body
+{
+  background-color: white;
+}
+
+.signupForm {
+  /* background-color: green; */
+  margin: auto;
+  margin-top: auto;
+}
+
+h2 {
+  /* background-color: red; */
+  padding: 30px 0;
+}
+
+
+.container {
+  
+  margin: auto;
+  margin-top:10%;
+  padding-bottom: 30px;
+  display: block;
+  background-color: rgba(0, 0, 255, 0.218);
+
+  text-align: center;
+  height: 60vh;
+  width: 50vh;
+  border-radius: 8px;
+  /* margin-top:10%; */
+
+}
+
+input,
+select,
+button {
+  display: block;
+  margin: auto;
+  width: 90%;
+  border-color: transparent;
+  background-color: rgb(73, 90, 245);
+  caret-color: white;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  height: 40px;
+  border-radius: 8px;
+}
+
+::placeholder
+{
+  color: white;
+}
+
+button{
+  background-color: green;
+}
+
+
+.containerlog {
+  display: block;
+  margin: auto;
+  background-color: rgba(0, 0, 255, 0.218);
+
+  text-align: center;
+  height: auto;
+  width: 50vh;
+  border-radius: 8px;
+  padding: 30px;
+
+}
+
+
+.login:hover
+{
+  cursor: pointer;
+}
+
+
+
+.signupForm h4
+{
+  font-size: 1rem;
+  padding:5%;
+}
+
+.mainContainer
+{
+  /* style={{display:'flex', justifyContent:'center', alignItems:'center', backgroundColor:'red'}} */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+.navbar {
+    font-family: 'Rubik', sans-serif;
+    height: 70px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 1) 100%, rgba(0, 212, 255, 0) 100%, rgba(9, 9, 121, 0.4918418050814075) 100%); */
+    display: flex;
+    overflow: hidden;
+    padding-top: 01px;
+    /* margin-bottom: -21px; */
+    
+}
+
+.logo {
+    position: relative;
+    bottom: 65px;
+    height: 200px;
+    width: auto;
+    overflow: hidden;  
+    -webkit-user-drag: none;
+}
+
+.navbarbtns {
+    /* margin-top: auto; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarbtns h1 {
+    /* padding-top: 5px; */
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    color: white;
+    
+    user-select: none;
+    
+}
+
+.navbarbtns h1:hover
+{
+    padding-bottom:5px;
+    border-bottom:2px solid rgb(107, 169, 208);
+}
+
+
+.btndiv
+{
+    
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    width: 500px;
+    height: auto;
+} 
+
+.navbar a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.logodiv
+{
+    width: 500px;
+    height: auto;
+}
