@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+ 
+.navbar {
+    position: fixed;
+    z-index: 99;
+    font-family: 'Rubik', sans-serif;
+    height: 70px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 1) 100%, rgba(0, 212, 255, 0) 100%, rgba(9, 9, 121, 0.4918418050814075) 100%); */
+    display: flex;
+    overflow: hidden;
+    padding-top: 01px;
+    /* margin-bottom: -21px; */
+    
+}
+
+.logo {
+    position: relative;
+    bottom: 65px;
+    height: 200px;
+    width: auto;
+    overflow: hidden;  
+    -webkit-user-drag: none;
+}
+
+.navbarbtns {
+    /* margin-top: auto; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+}
+
+.navbarbtns h1 {
+    /* padding-top: 5px; */
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    color: white;
+    
+    user-select: none;
+    
+}
+
+.navbarbtns h1:hover
+{
+    padding-bottom:5px;
+    border-bottom:2px solid rgb(107, 169, 208);
+}
+
+.logoutIcon{ 
+    display: none;
+    height: 40px;
+    width: 40px;
+}
+
+.btndiv
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: red; */
+    width: 500px;
+    height: auto; 
+} 
+
+.navbar a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.logodiv
+{
+    width: 500px;
+    height: auto;
+}
+
+
+.navbutton, .navbuttonlogout{
+    
+    font-family: 'Rubik', sans-serif;
+    background-color: transparent;
+    display: block;
+    position: relative;
+    right: 10%;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid; 
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px 5px;
+    text-decoration: none;
+}
+ 
+
+.navbuttonlogout
+{
+    background-color: transparent;
+    color: red;
+}
+.navbutton:hover {
+    cursor: pointer;
+    backdrop-filter: brightness(95%);
+}
+
+
+
+
+@media (max-width: 787px) {
+
+    .navbutton{ 
+        height: 40px;
+        width: 50px; 
+        font-size: 0.5rem;
+        padding: 3px;
+    }
+
+    .navbuttonlogout
+    {
+        display: none;
+    }
+
+    .logoutIcon{
+        display: block;
+    }
+    .btndiv
+    { 
+        padding-right: 5%;
+    } 
+    
+}
+
+@media (max-width:617px) { 
+.navbarbtns h1 { 
+    font-size: 0.9rem;  
+    margin: 0 0.5rem;
+    } 
+    
+    .logo { 
+        height: 110px; 
+        bottom: 30%;
+    }
+    .logoutIcon{  
+        height: 20px;
+        width: 20px;
+    } 
+    .navbutton{  
+        color: black;
+    }
+    
+}
